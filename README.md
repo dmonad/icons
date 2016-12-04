@@ -7,9 +7,11 @@
 bower i --save dmonad/icons
 ```
 
-##### File | Document
+##### Document Types
 
-
+![Rich Text](./document-types/richtext.svg)
+![MarkDown](./document-types/markdown.svg)
+![TeX](./document-types/tex.svg)
 
 ### License
 All content in this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
