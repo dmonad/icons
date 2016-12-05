@@ -7,6 +7,12 @@
 bower i --save dmonad/icons
 ```
 
+Or specify the local name of the icons repository:
+
+```
+bower i my-icons=dmonad/icons --save
+```
+
 ##### Document Types
 
 ![Rich Text](https://cdn.rawgit.com/dmonad/icons/master/document-types/richtext.svg)
