@@ -1,5 +1,5 @@
 # Icons
-> Set of CC licensed icons by [Kevin Jahns](https://github.com/dmonad/)
+> Set of CC licensed icons
 
 ### Install
 
@@ -9,9 +9,9 @@ bower i --save dmonad/icons
 
 ##### Document Types
 
-![Rich Text](./document-types/richtext.svg)
-![MarkDown](./document-types/markdown.svg)
-![TeX](./document-types/tex.svg)
+![Rich Text](https://cdn.rawgit.com/dmonad/icons/master/document-types/richtext.svg)
+![MarkDown](https://cdn.rawgit.com/dmonad/icons/master/document-types/markdown.svg)
+![TeX](https://cdn.rawgit.com/dmonad/icons/master/document-types/tex.svg)
 
 ### License
 All content in this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
