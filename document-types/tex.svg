@@ -7,13 +7,76 @@
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 64 64"
    version="1.1"
-   id="svg4286"
+   id="svg7092"
    height="64"
    width="64">
   <defs
-     id="defs4288" />
+     id="defs7094">
+    <filter
+       id="filter7040"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood7042"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.27451" />
+      <feComposite
+         id="feComposite7044"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur7046"
+         result="blur"
+         stdDeviation="0.5"
+         in="composite1" />
+      <feOffset
+         id="feOffset7048"
+         result="offset"
+         dy="0.9"
+         dx="-0.3" />
+      <feComposite
+         id="feComposite7050"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter8287"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood8289"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.188235" />
+      <feComposite
+         id="feComposite8291"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur8293"
+         result="blur"
+         stdDeviation="1.1"
+         in="composite1" />
+      <feOffset
+         id="feOffset8295"
+         result="offset"
+         dy="0.9"
+         dx="-0.3" />
+      <feComposite
+         id="feComposite8297"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+  </defs>
   <metadata
-     id="metadata4291">
+     id="metadata7097">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -27,28 +90,25 @@
   <g
      id="layer1">
     <g
-       id="g4240"
-       transform="translate(-53.016496,-48.411138)">
-      <g
-         id="g4229">
-        <path
-           id="rect3370"
-           d="m 65.252883,48.420201 c -2.6592,0 -4.80078,2.63179 -4.80078,5.90039 l 0,52.201169 c 0,3.2686 2.14158,5.89844 4.80078,5.89844 l 39.400387,0 c 2.65921,0 4.79883,-2.62984 4.79883,-5.89844 l 0,-38.781249 -19.808591,-19.32031 -24.390626,0 z"
-           style="fill:#4bae4f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           id="rect4176"
-           d="m 89.66097,48.402076 0,13.52735 c 0,3.2686 2.13963,5.90039 4.79883,5.90039 l 15.12109,0 -19.91992,-19.42774 z"
-           style="fill:#8fd98f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      </g>
+       transform="translate(2.8157749,14.974244)"
+       id="g8365">
+      <path
+         style="fill:#4bae4f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 10.224523,-14.974244 c -2.6591996,0 -4.8007796,2.63179 -4.8007796,5.9003898 l 0,52.2011702 c 0,3.2686 2.14158,5.89844 4.8007796,5.89844 l 39.400388,0 c 2.65921,0 4.79883,-2.62984 4.79883,-5.89844 l 0,-38.7812503 -19.808588,-19.3203097 -24.39063,0 z"
+         id="rect3370-0" />
+      <path
+         style="fill:#8fd98f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter8287)"
+         d="m 34.632613,-14.992374 0,13.5273497 c 0,3.2686 2.13963,5.90039 4.79883,5.90039 l 15.121088,0 -19.919918,-19.4277397 z"
+         id="rect4176-6" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="67.782608"
-         y="95.354424"
-         id="text4197"><tspan
-           x="67.782608"
-           y="95.354424"
-           id="tspan4205">TEX</tspan></text>
+         x="12.754257"
+         y="31.959959"
+         id="text4197-1"><tspan
+           x="12.754257"
+           y="31.959959"
+           id="tspan4205-5">TEX</tspan></text>
     </g>
   </g>
 </svg>

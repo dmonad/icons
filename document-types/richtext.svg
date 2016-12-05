@@ -7,13 +7,138 @@
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 64 64"
    version="1.1"
-   id="svg4286"
+   id="svg7092"
    height="64"
    width="64">
   <defs
-     id="defs4288" />
+     id="defs7094">
+    <filter
+       id="filter7040"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood7042"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.27451" />
+      <feComposite
+         id="feComposite7044"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur7046"
+         result="blur"
+         stdDeviation="0.5"
+         in="composite1" />
+      <feOffset
+         id="feOffset7048"
+         result="offset"
+         dy="0.9"
+         dx="-0.3" />
+      <feComposite
+         id="feComposite7050"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter8287"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood8289"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.188235" />
+      <feComposite
+         id="feComposite8291"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur8293"
+         result="blur"
+         stdDeviation="1.1"
+         in="composite1" />
+      <feOffset
+         id="feOffset8295"
+         result="offset"
+         dy="0.9"
+         dx="-0.3" />
+      <feComposite
+         id="feComposite8297"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter8299"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood8301"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.188235" />
+      <feComposite
+         id="feComposite8303"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur8305"
+         result="blur"
+         stdDeviation="1.1"
+         in="composite1" />
+      <feOffset
+         id="feOffset8307"
+         result="offset"
+         dy="0.9"
+         dx="-0.3" />
+      <feComposite
+         id="feComposite8309"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter8311"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood8313"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.188235" />
+      <feComposite
+         id="feComposite8315"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur8317"
+         result="blur"
+         stdDeviation="1.1"
+         in="composite1" />
+      <feOffset
+         id="feOffset8319"
+         result="offset"
+         dy="0.9"
+         dx="-0.3" />
+      <feComposite
+         id="feComposite8321"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+  </defs>
   <metadata
-     id="metadata4291">
+     id="metadata7097">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -27,28 +152,25 @@
   <g
      id="layer1">
     <g
-       id="g4247"
-       transform="translate(-169.53213,-48.404479)">
-      <g
-         id="g4221">
-        <path
-           id="rect3370-6-7"
-           d="m 181.79061,48.420199 c -2.6592,0 -4.80078,2.63179 -4.80078,5.90039 l 0,52.201171 c 0,3.2686 2.14158,5.89844 4.80078,5.89844 l 39.40039,0 c 2.65921,0 4.79883,-2.62984 4.79883,-5.89844 l 0,-38.781251 -19.80859,-19.32031 -24.39063,0 z"
-           style="fill:#2096f2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           id="rect4176-2-5"
-           d="m 206.15451,48.388758 0,13.52735 c 0,3.2686 2.13963,5.90039 4.79883,5.90039 l 15.12109,0 -19.91992,-19.42774 z"
-           style="fill:#acd8fb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      </g>
+       id="g8490"
+       transform="translate(-168.78263,-183.16974)">
+      <path
+         style="fill:#2096f2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 181.71646,183.16974 c -2.6592,0 -4.80078,2.63179 -4.80078,5.90039 l 0,52.20117 c 0,3.2686 2.14158,5.89844 4.80078,5.89844 l 39.40039,0 c 2.65921,0 4.79883,-2.62984 4.79883,-5.89844 l 0,-38.78125 -19.80859,-19.32031 -24.39063,0 z"
+         id="rect3370-6-7-5" />
+      <path
+         style="fill:#acd8fb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter8311)"
+         d="m 206.08036,183.1383 0,13.52735 c 0,3.2686 2.13963,5.90039 4.79883,5.90039 l 15.12109,0 -19.91992,-19.42774 z"
+         id="rect4176-2-5-6" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="189.40018"
-         y="95.354424"
-         id="text4197-9-3"><tspan
-           x="189.40018"
-           y="95.354424"
-           id="tspan4182"
+         x="189.32603"
+         y="230.10394"
+         id="text4197-9-3-9"><tspan
+           x="189.32603"
+           y="230.10394"
+           id="tspan4182-3"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.25px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">RT</tspan></text>
     </g>
   </g>

@@ -7,13 +7,107 @@
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 64 64"
    version="1.1"
-   id="svg4286"
+   id="svg7092"
    height="64"
    width="64">
   <defs
-     id="defs4288" />
+     id="defs7094">
+    <filter
+       id="filter7040"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood7042"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.27451" />
+      <feComposite
+         id="feComposite7044"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur7046"
+         result="blur"
+         stdDeviation="0.5"
+         in="composite1" />
+      <feOffset
+         id="feOffset7048"
+         result="offset"
+         dy="0.9"
+         dx="-0.3" />
+      <feComposite
+         id="feComposite7050"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter8287"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood8289"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.188235" />
+      <feComposite
+         id="feComposite8291"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur8293"
+         result="blur"
+         stdDeviation="1.1"
+         in="composite1" />
+      <feOffset
+         id="feOffset8295"
+         result="offset"
+         dy="0.9"
+         dx="-0.3" />
+      <feComposite
+         id="feComposite8297"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter8299"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood8301"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.188235" />
+      <feComposite
+         id="feComposite8303"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur8305"
+         result="blur"
+         stdDeviation="1.1"
+         in="composite1" />
+      <feOffset
+         id="feOffset8307"
+         result="offset"
+         dy="0.9"
+         dx="-0.3" />
+      <feComposite
+         id="feComposite8309"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+  </defs>
   <metadata
-     id="metadata4291">
+     id="metadata7097">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -27,28 +121,25 @@
   <g
      id="layer1">
     <g
-       id="g4233"
-       transform="translate(-110.95869,-48.398249)">
-      <g
-         id="g4225">
-        <path
-           id="rect3370-6"
-           d="m 123.20612,48.4202 c -2.6592,0 -4.80078,2.63179 -4.80078,5.90039 l 0,52.20117 c 0,3.2686 2.14158,5.89844 4.80078,5.89844 l 39.40039,0 c 2.65921,0 4.79883,-2.62984 4.79883,-5.89844 l 0,-38.78125 -19.80859,-19.32031 -24.39063,0 z"
-           style="fill:#f57c00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           id="rect4176-2"
-           d="m 147.59211,48.376299 0,13.52735 c 0,3.2686 2.13963,5.90039 4.79883,5.90039 l 15.12109,0 -19.91992,-19.42774 z"
-           style="fill:#ffce9b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      </g>
+       id="g8408"
+       transform="translate(-110.20919,-183.16974)">
+      <path
+         style="fill:#f57c00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 123.13197,183.16974 c -2.6592,0 -4.80078,2.63179 -4.80078,5.90039 l 0,52.20117 c 0,3.2686 2.14158,5.89844 4.80078,5.89844 l 39.40039,0 c 2.65921,0 4.79883,-2.62984 4.79883,-5.89844 l 0,-38.78125 -19.80859,-19.32031 -24.39063,0 z"
+         id="rect3370-6-5" />
+      <path
+         style="fill:#ffce9b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter8299)"
+         d="m 147.51796,183.12584 0,13.52735 c 0,3.2686 2.13963,5.90039 4.79883,5.90039 l 15.12109,0 -19.91992,-19.42774 z"
+         id="rect4176-2-4" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="127.79969"
-         y="95.354424"
-         id="text4197-9"><tspan
-           x="127.79969"
-           y="95.354424"
-           id="tspan4205-1"
+         x="127.72554"
+         y="230.10394"
+         id="text4197-9-7"><tspan
+           x="127.72554"
+           y="230.10394"
+           id="tspan4205-1-6"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">MD</tspan></text>
     </g>
   </g>
